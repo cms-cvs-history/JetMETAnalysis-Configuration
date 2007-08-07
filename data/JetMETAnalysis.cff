@@ -1,0 +1,9 @@
+#
+# JetMETAnalysis standard sequences
+#
+
+include "JetMETAnalysis/METSkims/data/METSkims.cff"
+
+sequence jetMETAnalysis = {
+  metSkims
+}
