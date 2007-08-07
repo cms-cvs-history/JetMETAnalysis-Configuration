@@ -3,7 +3,8 @@
 #
 
 include "JetMETAnalysis/METSkims/data/METSkims.cff"
+include "JetMETAnalysis/JetSkims/data/JetSkims.cff"
 
 sequence jetMETAnalysis = {
-  metSkims
+  metSkims & jetSkims
 }
