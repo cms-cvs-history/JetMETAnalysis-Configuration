@@ -1,0 +1,6 @@
+#### MET
+include "JetMETAnalysis/METSkims/data/met_SkimPaths.cff"
+include "JetMETAnalysis/METSkims/data/sumET_SkimPaths.cff"
+### JET
+include "JetMETAnalysis/JetSkims/data/onejet_SkimPaths.cff"
+include "JetMETAnalysis/JetSkims/data/onejet_OutputModule.cfi"
