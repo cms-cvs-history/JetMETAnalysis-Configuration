@@ -2,12 +2,14 @@ include "JetMETAnalysis/METSkims/data/met_OutputModule.cfi"
 include "JetMETAnalysis/METSkims/data/sumET_OutputModule.cfi"
 include "JetMETAnalysis/METSkims/data/onejet_OutputModule.cfi"
 include "JetMETAnalysis/METSkims/data/photonjets_OutputModule.cfi"
+include "JetMETAnalysis/METSkims/data/dijetbalance_OutputModule.cfi"
 
 sequence JetMETAnalysisOutput = {
 metOutputModuleFEVTSIM &
 sumETOutputModuleFEVTSIM &
 onejetOutputModuleAODSIM &
-photonjetsOutputModuleAODSIM
-
+photonjetsOutputModuleAODSIM &
+dijetbalanceOutputModuleAODSIM
 }
+
 

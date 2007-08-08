@@ -5,6 +5,7 @@ include "JetMETAnalysis/METSkims/data/sumET_EventContent.cff"
 ### JET Event Content
 include "JetMETAnalysis/JetSkims/data/onejet_EventContent.cff"
 include "JetMETAnalysis/JetSkims/data/photonjets_EventContent.cff"
+include "JetMETAnalysis/JetSkims/data/dijetbalance_EventContent.cff"
 
 block JetMETAnalysisEventContent = {
   untracked vstring outputCommands = {
@@ -16,3 +17,4 @@ replace JetMETAnalysisEventContent.outputCommands += sumETEventContent.outputCom
 
 replace JetMETAnalysisEventContent.outputCommands += onejetEventContent.outputCommands
 replace JetMETAnalysisEventContent.outputCommands += photonjetsEventContent.outputCommands
+replace JetMETAnalysisEventContent.outputCommands += dijetbalanceEventContent.outputCommands
