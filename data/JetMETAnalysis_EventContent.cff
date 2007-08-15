@@ -1,7 +1,7 @@
 ### MET Event Content
 include "JetMETAnalysis/METSkims/data/metHigh_EventContent.cff"
 include "JetMETAnalysis/METSkims/data/metLow_EventContent.cff"
-##include "JetMETAnalysis/METSkims/data/sumET_EventContent.cff"
+include "JetMETAnalysis/METSkims/data/sumET_EventContent.cff"
 
 ### JET Event Content
 include "JetMETAnalysis/JetSkims/data/onejet_EventContent.cff"
@@ -15,7 +15,7 @@ block JetMETAnalysisEventContent = {
 
 replace JetMETAnalysisEventContent.outputCommands += metHighEventContent.outputCommands
 replace JetMETAnalysisEventContent.outputCommands += metLowEventContent.outputCommands
-##replace JetMETAnalysisEventContent.outputCommands += sumETEventContent.outputCommands
+replace JetMETAnalysisEventContent.outputCommands += sumETEventContent.outputCommands
 
 replace JetMETAnalysisEventContent.outputCommands += onejetEventContent.outputCommands
 replace JetMETAnalysisEventContent.outputCommands += photonjetsEventContent.outputCommands

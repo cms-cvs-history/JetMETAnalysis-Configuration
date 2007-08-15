@@ -1,6 +1,6 @@
 include "JetMETAnalysis/METSkims/data/metHigh_OutputModule.cfi"
 include "JetMETAnalysis/METSkims/data/metLow_OutputModule.cfi"
-##include "JetMETAnalysis/METSkims/data/sumET_OutputModule.cfi"
+include "JetMETAnalysis/METSkims/data/sumET_OutputModule.cfi"
 include "JetMETAnalysis/JetSkims/data/onejet_OutputModule.cfi"
 include "JetMETAnalysis/JetSkims/data/photonjets_OutputModule.cfi"
 include "JetMETAnalysis/JetSkims/data/dijetbalance_OutputModule.cfi"
@@ -8,7 +8,7 @@ include "JetMETAnalysis/JetSkims/data/dijetbalance_OutputModule.cfi"
 sequence JetMETAnalysisOutput = {
 metHighOutputModuleFEVTSIM &
 metLowOutputModuleAODSIM &
-##sumETOutputModuleFEVTSIM &
+sumETOutputModuleAODSIM &
 onejetOutputModuleAODSIM &
 photonjetsOutputModuleAODSIM &
 dijetbalanceOutputModuleAODSIM
