@@ -5,5 +5,5 @@ include "JetMETAnalysis/METSkims/data/metLow_SkimPaths.cff"
 ### JET
 include "JetMETAnalysis/JetSkims/data/onejet_SkimPaths.cff"
 include "JetMETAnalysis/JetSkims/data/photonjets_SkimPaths.cff"
-include "JetMETAnalysis/JetSkims/data/dijetbalance_SkimPaths.cff"
+##include "JetMETAnalysis/JetSkims/data/dijetbalance_SkimPaths.cff"
 
