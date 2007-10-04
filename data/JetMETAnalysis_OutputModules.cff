@@ -6,10 +6,10 @@ include "JetMETAnalysis/JetSkims/data/photonjets_OutputModule.cfi"
 ##include "JetMETAnalysis/JetSkims/data/dijetbalance_OutputModule.cfi"
 
 sequence JetMETAnalysisOutput = {
-metHighOutputModuleFEVTSIM &
-metLowOutputModuleAODSIM &
+  metHighOutputModuleFEVTSIM &
+  metLowOutputModuleAODSIM &
 ##sumETOutputModuleAODSIM &
-onejetOutputModuleAODSIM &
+  onejetOutputModuleAODSIM &
 ##dijetbalanceOutputModuleAODSIM &
-photonjetsOutputModuleAODSIM
+  photonjetsOutputModuleAODSIM
 }
